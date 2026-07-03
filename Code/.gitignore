@@ -21,7 +21,3 @@ build/
 
 # Logs
 *.log
-
-# API Credentials and generated code lists
-include/credentials.h
-all_code.txt

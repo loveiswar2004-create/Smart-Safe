@@ -22,15 +22,11 @@ simMutex;
 // =====================================================
 // TELEGRAM CONFIG
 // =====================================================
-#if __has_include("credentials.h")
-#include "credentials.h"
-#else
-#define TELEGRAM_BOT_TOKEN "YOUR_BOT_TOKEN_HERE"
-#define TELEGRAM_CHAT_ID "YOUR_CHAT_ID_HERE"
-#endif
+String BOT_TOKEN =
+"7953174535:AAFPYbaoYEGF67FMCCDKuRdwyi3hX6rMsvk";
 
-String BOT_TOKEN = TELEGRAM_BOT_TOKEN;
-String CHAT_ID = TELEGRAM_CHAT_ID;
+String CHAT_ID =
+"8695905240";
 
 
 // =====================================================
